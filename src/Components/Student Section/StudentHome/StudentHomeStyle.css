@@ -1,0 +1,182 @@
+
+
+@media screen and (min-width:610px) {
+    .Student-Home-main-div{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+
+
+.Student-Home-main-div{
+    width: 100vw;
+    height: auto;
+}
+.Student-Home-sub-div{
+    width: 100%;
+    height: 100%;
+}
+.Student-Home-header-div{
+    width: 100%;
+    height: 11vh;
+    /* border: 1px solid red; */
+    display: flex;
+}
+.Student-Home-header-div-one{
+    width: 65%;
+    height: 100%;
+    /* border: 1px solid blueviolet; */
+    padding: 2vh 2vw;
+    
+}
+.Student-Home-header-div-one h4{
+   margin-top: 0.2vh;
+    
+}
+.Student-Home-header-div-two{
+    width: 35%;
+    height: 100%;
+    /* border: 1px solid blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Student-Home-header-div-two i{
+    margin-right: 3vw;
+    font-size: 1.2rem;
+}
+.Student-Home-header-div-two-second-icon{
+    width: 45%;
+    height: auto;
+    border: 1px solid rgb(138, 137, 137,0.4);
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 5vw;
+}
+.Student-Home-header-div-two-second-icon img{
+    height: auto;
+    width: 100%;
+}
+.Student-Home-searchbar-div{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    padding: 1vh 1vw;
+}
+.Student-Home-searchbar-div input{
+    width: 95%;
+    height: 100%;
+    border: none;
+    border: 1px solid rgb(17, 17, 17,0.2);
+    padding: 0 3vw;
+    border-radius: 5px;
+}
+.Student-Home-carousel-div{
+    width: 100%;
+    height: 16vh;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Student-Home-carousel{
+    width: 90%;
+    height: 85%;
+    /* border: 1px solid blueviolet; */
+}
+.Student-Home-carousel img{
+    width: 100%;
+    height: 13vh;
+    object-fit: cover;
+}
+.Student-Home-Middle-content-div{
+    width: 100%;
+    height: 28vh;
+    /* border: 1px solid red; */
+    margin-top: 1vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1vh 3vw;
+}
+.Student-Home-Main-icons{
+    width: 23%;
+    height: 43%;
+    /* border: 1px solid green; */
+    margin: 1vh 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Student-Home-Main-icons p{
+    font-size: 0.8rem;
+    color: rgb(12, 12, 12,0.7);
+}
+.Student-Home-Main-icons-inner-div{
+    width: 60%;
+    height: 60%;
+    /* border: 1px solid rgb(128, 128, 128,0.3); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 1vh;
+    background-color: #d3ffe2;
+}
+.Student-Home-Main-icons-inner-div i{
+    font-size: 1.2rem;
+    color: rgb(12, 12, 12,0.5);
+}
+
+.Student-Home-Lectures-content-div{
+    width: 100vw;
+    height: 25vh;
+    /* border: 1px solid green; */
+    margin-top: 2vh;
+    padding: 1vh 3vw;
+}
+.Student-Lectures-content-div-top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Student-Lectures-content-div-bottom{
+    width: 100%;
+    height: 70%;
+    margin-top: 2.5vh;
+    display: flex;
+    align-items: center;
+    overflow-x: auto; 
+    overflow-y: hidden; 
+    scroll-behavior: smooth;
+    /* border: 1px solid blue; */
+}
+
+
+
+.Student-Lectures-content-div-bottom-one{
+    flex-shrink: 0;
+    height: 85%;
+    margin-right: 5vw;
+    width: 70vw;
+    background-color: rgb(209, 203, 203,0.5);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding-left: 5vw;
+}
+.Student-Lectures-content-div-bottom-one p{
+    margin-top: 1vh;
+}
+
+
+}
