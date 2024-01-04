@@ -130,6 +130,8 @@ const StudentHome = () => {
 
 
         </div>
+        <div className='Student-Home-Lectures-content-div'>
+        </div>
       </div>
       < NavbarMain />
     </div>
