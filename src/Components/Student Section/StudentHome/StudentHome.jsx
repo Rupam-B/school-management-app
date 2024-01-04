@@ -109,21 +109,21 @@ const StudentHome = () => {
 
         <div className='Student-Home-Lectures-content-div'>
           <div className='Student-Lectures-content-div-top'>
-            <h3>Today's Lectures</h3>
+            <h4>Today's Lectures</h4>
             <p>view all</p>
           </div>
           <div className='Student-Lectures-content-div-bottom'>
             <div className='Student-Lectures-content-div-bottom-one'>
-              <h4>Math Lecture in 7th B</h4>
+              <h6>Math Lecture in 7th B</h6>
               <p><i className="fa-regular fa-clock"></i> 10 am to 11:30 am</p>
 
             </div>
             <div className='Student-Lectures-content-div-bottom-one'>
-              <h4>Chemistry Lecture in 11th A</h4>
+              <h6>Chemistry Lecture in 11th A</h6>
               <p><i className="fa-regular fa-clock"></i> 12 pm to 1:30 pm</p>
             </div>
             <div className='Student-Lectures-content-div-bottom-one'>
-              <h4>Physics Lecture in 12th B</h4>
+              <h6>Physics Lecture in 12th B</h6>
               <p><i className="fa-regular fa-clock"></i> 2 pm to 3:30 pm</p>
             </div>
           </div>

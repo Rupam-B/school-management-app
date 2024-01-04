@@ -115,8 +115,9 @@
     align-items: center;
 }
 .Student-Home-Main-icons p{
-    font-size: 0.8rem;
+    font-size: 0.65rem;
     color: rgb(12, 12, 12,0.7);
+    font-weight: bold;
 }
 .Student-Home-Main-icons-inner-div{
     width: 60%;
@@ -137,26 +138,27 @@
 .Student-Home-Lectures-content-div{
     width: 100vw;
     height: 25vh;
-    /* border: 1px solid green; */
+    border: 1px solid green;
     margin-top: 2vh;
-    padding: 1vh 3vw;
+    padding: 0 3vw;
 }
 .Student-Lectures-content-div-top{
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 1px solid blue;
 }
 .Student-Lectures-content-div-bottom{
     width: 100%;
     height: 70%;
-    margin-top: 2.5vh;
+    margin-top: 0;
     display: flex;
     align-items: center;
     overflow-x: auto; 
     overflow-y: hidden; 
     scroll-behavior: smooth;
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
 }
 
 
