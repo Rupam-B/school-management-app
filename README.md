@@ -1,1 +1,1 @@
-# school-management-app
+https://school-mgmt-app-bsp.netlify.app/
