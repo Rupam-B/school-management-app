@@ -1,8 +1,10 @@
 import React from 'react'
-import './StudentHomeStyle.css'
+import './TeachersHomeStyle.css'
 import NavbarMain from '../../Navbar/NavbarMain';
+import { Link} from 'react-router-dom';
 
-const StudentHome = () => {
+const TeachersHome = () => {
+
   return (
     <div className='Student-Home-main-div'>
       <div className='Student-Home-sub-div'>
@@ -84,22 +86,22 @@ const StudentHome = () => {
             </div>
             <p>Home Work</p>
           </div>
-          <div className='Student-Home-Main-icons'>
-            <div style={{ backgroundColor: '#e1e0fa' }} className='Student-Home-Main-icons-inner-div'>
+          <div  className='Student-Home-Main-icons'>
+            <Link to={'/StudentInfo'} style={{ backgroundColor: '#e1e0fa',textDecoration:'none' }} className='Student-Home-Main-icons-inner-div' >
             <i className="fa-solid fa-graduation-cap"></i>
-            </div>
+            </Link>
             <p>Student Info</p>
           </div>
           <div className='Student-Home-Main-icons'>
-            <div style={{ backgroundColor: '#faf4d1' }} className='Student-Home-Main-icons-inner-div'>
+            <Link to={'/MessageList'} style={{ backgroundColor: '#faf4d1', textDecoration:'none' }} className='Student-Home-Main-icons-inner-div'>
             <i className="fa-solid fa-message"></i>
-            </div>
+            </Link>
             <p>Message</p>
           </div>
           <div className='Student-Home-Main-icons'>
-            <div style={{ backgroundColor: '#d3ffe2' }} className='Student-Home-Main-icons-inner-div'>
+            <Link to={'/ProfileView'} style={{ backgroundColor: '#d3ffe2',textDecoration:'none' }} className='Student-Home-Main-icons-inner-div'>
               <i className="fa-regular fa-calendar"></i>
-            </div>
+            </Link>
             <p>Notice</p>
           </div>
 
@@ -110,7 +112,7 @@ const StudentHome = () => {
         <div className='Student-Home-Lectures-content-div'>
           <div className='Student-Lectures-content-div-top'>
             <h4>Today's Lectures</h4>
-            <p>view all</p>
+            <Link style={{textDecoration:'none'}} to={'/LectureList'}><p>view all</p></Link>
           </div>
           <div className='Student-Lectures-content-div-bottom'>
             <div className='Student-Lectures-content-div-bottom-one'>
@@ -138,4 +140,4 @@ const StudentHome = () => {
   )
 }
 
-export default StudentHome
+export default TeachersHome

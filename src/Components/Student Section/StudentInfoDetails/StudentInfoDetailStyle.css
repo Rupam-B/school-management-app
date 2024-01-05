@@ -1,0 +1,102 @@
+.Student-infoDetails-main-div{
+    width: 100vw;
+    height: auto;
+    /* border: 1px solid red; */
+}
+.Student-infoDetails-top-div{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Student-infoDetails-top-div i{
+    position: absolute;
+    top: 4vh;
+    left: 3vw;
+}
+
+.Student-infoDetails-mid-div{
+    width: 100%;
+    height: auto;
+    padding: 2vh 3vw;
+    /* border: 1px solid red; */
+}
+
+.Student-infoDetails-mid-one-div{
+    width: 100%;
+    height: 15vh;
+    /* border: 1px solid gray; */
+    display: flex;
+    align-items: center;
+    /* background-color: blue; */
+}
+.Student-infoDetails-mid-one-div-image{
+    /* border: 1px solid gray; */
+    height: 80%;
+    width: 25vw;
+    border-radius: 50%;
+    margin-right: 5vw;
+    overflow: hidden;
+}
+.Student-infoDetails-mid-one-div-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Student-infoDetails-mid-one-div-infos{
+    /* border: 1px solid blue; */
+    height: 80%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Student-infoDetails-mid-one-div-infos h6{
+    margin-bottom: 2vh;
+}
+.Student-infoDetails-mid-one-div-infos p{
+    margin: 0;
+}
+
+.Student-infoDetails-mid-two-div{
+    width: 100%;
+    height: 15vh;
+    /* border: 1px solid gray; */
+    display: flex;
+    align-items: center;
+    padding: 1vh 0;
+}
+.Student-infoDetails-mid-two-div-results{
+    height: 70%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.Student-infoDetails-mid-two-div-results p{
+   margin: 0;
+}
+.Student-infoDetails-mid-two-div-Attendance{
+    font-size: 0.9rem;
+    color: rgb(0, 0, 0,0.4);
+    font-weight: 700;
+}
+.Student-infoDetails-mid-two-div-Attendance-percent{
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0,0.9);
+    font-weight: 700;
+}
+
+
+
+.Student-infoDetails-mid-three-div{
+    width: 100%;
+    height: 40vh;
+    /* border: 1px solid red; */
+    background-color:rgba(0, 0, 0, 0.03);
+    padding: 1vh 3vw;
+    border-radius: 5px;
+}

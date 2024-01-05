@@ -1,0 +1,145 @@
+.Student-info-main-div{
+    width: 100vw;
+    height: auto;
+    /* border: 1px solid red; */
+}
+.Student-info-top-div{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Student-info-top-div i{
+    position: absolute;
+    top: 4vh;
+    left: 3vw;
+}
+.Student-info-serch-div{
+    width: 100%;
+    height: 10vh;
+    /* border: 1px solid greenyellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Student-info-serch-div select{
+    width: 90%;
+    height: 60%;
+    border: none;
+    border: 1px solid rgb(10, 10, 10,0.2);
+    padding: 0 3vw;
+    border-radius: 10px;
+}
+.Student-info-serch-div select option{
+    width: 90%;
+    border: none;
+}
+.Student-info-list-show{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid red; */
+}
+.Student-info-last-margin-div{
+    width: 100%;
+    height: 30vh;
+}
+.Student-info-list-show-pre{
+    width: 70%;
+    height: 45%;
+    /* border: 1px solid green; */
+    margin-top: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.Student-info-list-show-pre button{
+    width: 100%;
+    border: none;
+    background-color: #9473ce;
+    color: white;
+    margin-top: 2vh;
+    border-radius: 5px;
+    padding: 0.5rem;
+
+}
+.Student-info-list-show-pre-image{
+    width: 60%;
+    height:40%;
+    border-radius: 50%;
+    /* border: 1px solid gray; */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Student-info-list-show-pre-image img{
+    width: 120%;
+    height: 120%;
+    object-fit: cover;
+}
+
+.Student-info-list-show-pre-p-one{
+    text-align: center;
+    font-weight: 500;
+    margin-top: 1vh;
+}
+.Student-info-list-show-pre-p-two{
+    text-align: center;
+    font-weight: 300;
+    width: 80%;
+}
+
+
+
+.Student-info-list-show-post{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Student-info-list-show-post-classname{
+    margin-top: 2vh;
+    font-weight: 800;
+    color: rgb(0, 0, 0,0.3);
+    font-size: 1.3rem;
+}
+.Student-info-list-show-post-StudentList{
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: auto;
+    margin-top: 2vh;
+    padding: 3vh 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.Student-info-list-show-post-studentName{
+    /* border: 1px solid gray; */
+    width: 95%;
+    height: 8vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4vw;
+    margin-bottom: 3vh;
+}
+.Student-info-list-show-post-studentName-header{
+    display: flex;
+    align-items: center;
+}
+.Student-info-list-show-post-studentName-header img{
+    width: 10vw;
+    height: 5vh;
+    margin-right: 2vw;
+    border-radius: 50%;
+    object-fit: cover;
+}

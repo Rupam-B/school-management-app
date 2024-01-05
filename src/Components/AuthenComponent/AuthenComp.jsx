@@ -35,7 +35,7 @@ const AuthenComp = () => {
 
     const handleLogin = () => {
         if (username === 'sid' && userpassword === '123') {
-            loginavigate('/Studenthome')
+            loginavigate('/TeachersHome')
         }
         else {
             alert('wrong')
