@@ -12,7 +12,7 @@
 }
 .Student-infoDetails-top-div i{
     position: absolute;
-    top: 4vh;
+    top: 3vh;
     left: 3vw;
 }
 
@@ -80,7 +80,7 @@
    margin: 0;
 }
 .Student-infoDetails-mid-two-div-Attendance{
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     color: rgb(0, 0, 0,0.4);
     font-weight: 700;
 }
