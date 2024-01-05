@@ -41,7 +41,38 @@ const StudentInfoDetails = () => {
           </div>
 
           <div className='Student-infoDetails-mid-three-div'>
-            <div className=''></div>
+            <div className='Student-infoDetails-mid-three-div-para row'>
+              <p className='Student-infoDetails-mid-three-div-para-one col-5'>Date of Birth</p>
+              <p className='Student-infoDetails-mid-three-div-para-two col-7'>20.12.2003</p>
+            </div>
+            <div className='Student-infoDetails-mid-three-div-para row'>
+              <p className='Student-infoDetails-mid-three-div-para-one col-5'>Gender</p>
+              <p className='Student-infoDetails-mid-three-div-para-two col-7'>Male</p>
+            </div>
+            <div className='Student-infoDetails-mid-three-div-para row'>
+              <p className='Student-infoDetails-mid-three-div-para-one col-5'>Class</p>
+              <p className='Student-infoDetails-mid-three-div-para-two col-7'>7th / B</p>
+            </div>
+            <div className='Student-infoDetails-mid-three-div-para row'>
+              <p className='Student-infoDetails-mid-three-div-para-one col-5'>Roll No</p>
+              <p className='Student-infoDetails-mid-three-div-para-two col-7'>04</p>
+            </div>
+            <div className='Student-infoDetails-mid-three-div-para row'>
+              <p className='Student-infoDetails-mid-three-div-para-one col-5'>Phone No</p>
+              <p className='Student-infoDetails-mid-three-div-para-two col-7'>9876543210</p>
+            </div>
+            <div className='Student-infoDetails-mid-three-div-para row'>
+              <p className='Student-infoDetails-mid-three-div-para-one col-5'>Father's Name</p>
+              <p className='Student-infoDetails-mid-three-div-para-two col-7'>Doanld Henrick</p>
+            </div>
+            <div className='Student-infoDetails-mid-three-div-para row'>
+              <p className='Student-infoDetails-mid-three-div-para-one col-5'>Address</p>
+              <p className='Student-infoDetails-mid-three-div-para-two col-7'>LandMark Complex Old Bus Stand Bilaspur Chhattisgarh</p>
+            </div>
+            <div className='Student-infoDetails-mid-three-div-para row'>
+              <p className='Student-infoDetails-mid-three-div-para-one col-5'>Performance</p>
+              <p className='Student-infoDetails-mid-three-div-para-two col-7'>Good</p>
+            </div>
 
           </div>
         </div>
