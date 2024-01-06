@@ -172,6 +172,7 @@ const StudentResult = () => {
                     </div>
 
                 </div>
+                <div className='Student-all-Result-space-adder-div'></div>
             </div>
         </div>
     )
