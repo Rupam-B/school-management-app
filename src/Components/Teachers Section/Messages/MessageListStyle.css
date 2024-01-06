@@ -64,7 +64,7 @@
 .Message-list-mid-individual-inner{
     width: 90vw;
     height: 11vh;
-    border-bottom: 1px solid rgb(0, 0, 0,0.5);
+    border-bottom: 1px solid rgb(0, 0, 0,0.2);
     display: flex;
     justify-content: space-between;
     padding-right: 2vw;
