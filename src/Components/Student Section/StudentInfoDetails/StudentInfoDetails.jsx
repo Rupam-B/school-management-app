@@ -75,6 +75,38 @@ const StudentInfoDetails = () => {
             </div>
 
           </div>
+
+
+          <div className='Student-infoDetails-mid-four-div'>
+            <div className='Student-infoDetails-show-sem-results'>
+            <div className='Student-infoDetails-show-sem-results-left'>
+                <p className='Student-infoDetails-show-sem-results-left-para-one'>First Term Results</p>
+                <p className='Student-infoDetails-show-sem-results-left-para-two'><i className="fa-regular fa-clock"></i> 12th Jan 12:30 pm</p>
+              </div>
+              <div className='Student-infoDetails-show-sem-results-right'>
+              <Link to={'/StudentResults'}><i  className="fa-solid fa-angle-right"></i></Link>
+              </div>
+            </div>
+            <div className='Student-infoDetails-show-sem-results'>
+            <div className='Student-infoDetails-show-sem-results-left'>
+                <p className='Student-infoDetails-show-sem-results-left-para-one'>Quaterly Results</p>
+                <p className='Student-infoDetails-show-sem-results-left-para-two'><i className="fa-regular fa-clock"></i> 12th Jan 12:30 pm</p>
+              </div>
+              <div className='Student-infoDetails-show-sem-results-right'>
+              <Link to={'/StudentResults'}><i  className="fa-solid fa-angle-right"></i></Link>
+              </div>
+            </div>
+            <div className='Student-infoDetails-show-sem-results'>
+              <div className='Student-infoDetails-show-sem-results-left'>
+                <p className='Student-infoDetails-show-sem-results-left-para-one'>Half Yearly Results</p>
+                <p className='Student-infoDetails-show-sem-results-left-para-two'><i className="fa-regular fa-clock"></i> 12th Jan 12:30 pm</p>
+              </div>
+              <div className='Student-infoDetails-show-sem-results-right'>
+              <Link to={'/StudentResults'}><i  className="fa-solid fa-angle-right"></i></Link>
+              </div>
+            </div>
+
+          </div>
         </div>
       </div>
     </div>

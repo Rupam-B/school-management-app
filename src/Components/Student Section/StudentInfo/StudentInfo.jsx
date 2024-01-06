@@ -65,6 +65,15 @@ const StudentInfo = () => {
                             <h6>Angelina Rodrigus</h6>
                             </div>
                             <div>
+                            <Link to={'/StudentDetails'}><Link to={'/StudentDetails'}><i  className="fa-solid fa-angle-right"></i></Link></Link>
+                            </div>
+                           </div>
+                           <div className='Student-info-list-show-post-studentName'>
+                            <div className='Student-info-list-show-post-studentName-header'>
+                            <img src="https://thumbs.dreamstime.com/b/portrait-confident-indian-teenage-girl-looking-camera-smile-indoor-image-beautiful-happy-indian-girl-looking-191359170.jpg" alt="" />
+                            <h6>Angelina Rodrigus</h6>
+                            </div>
+                            <div>
                             <Link to={'/StudentDetails'}><i  className="fa-solid fa-angle-right"></i></Link>
                             </div>
                            </div>
@@ -74,7 +83,7 @@ const StudentInfo = () => {
                             <h6>Angelina Rodrigus</h6>
                             </div>
                             <div>
-                            <i  className="fa-solid fa-angle-right"></i>
+                            <Link to={'/StudentDetails'}><i  className="fa-solid fa-angle-right"></i></Link>
                             </div>
                            </div>
                            <div className='Student-info-list-show-post-studentName'>
@@ -83,7 +92,7 @@ const StudentInfo = () => {
                             <h6>Angelina Rodrigus</h6>
                             </div>
                             <div>
-                            <i  className="fa-solid fa-angle-right"></i>
+                            <Link to={'/StudentDetails'}><i  className="fa-solid fa-angle-right"></i></Link>
                             </div>
                            </div>
                            <div className='Student-info-list-show-post-studentName'>
@@ -92,7 +101,7 @@ const StudentInfo = () => {
                             <h6>Angelina Rodrigus</h6>
                             </div>
                             <div>
-                            <i  className="fa-solid fa-angle-right"></i>
+                            <Link to={'/StudentDetails'}><i  className="fa-solid fa-angle-right"></i></Link>
                             </div>
                            </div>
                            <div className='Student-info-list-show-post-studentName'>
@@ -101,7 +110,7 @@ const StudentInfo = () => {
                             <h6>Angelina Rodrigus</h6>
                             </div>
                             <div>
-                            <i  className="fa-solid fa-angle-right"></i>
+                            <Link to={'/StudentDetails'}><i  className="fa-solid fa-angle-right"></i></Link>
                             </div>
                            </div>
                            <div className='Student-info-list-show-post-studentName'>
@@ -110,16 +119,7 @@ const StudentInfo = () => {
                             <h6>Angelina Rodrigus</h6>
                             </div>
                             <div>
-                            <i  className="fa-solid fa-angle-right"></i>
-                            </div>
-                           </div>
-                           <div className='Student-info-list-show-post-studentName'>
-                            <div className='Student-info-list-show-post-studentName-header'>
-                            <img src="https://thumbs.dreamstime.com/b/portrait-confident-indian-teenage-girl-looking-camera-smile-indoor-image-beautiful-happy-indian-girl-looking-191359170.jpg" alt="" />
-                            <h6>Angelina Rodrigus</h6>
-                            </div>
-                            <div>
-                            <i  className="fa-solid fa-angle-right"></i>
+                            <Link to={'/StudentDetails'}><i  className="fa-solid fa-angle-right"></i></Link>
                             </div>
                            </div>
                           

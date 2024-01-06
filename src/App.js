@@ -8,6 +8,7 @@ import MessageList from './Components/Teachers Section/Messages/MessageList'
 import ProfileView from './Components/Teachers Section/Profile/ProfileView';
 import StudentInfo from './Components/Student Section/StudentInfo/StudentInfo';
 import StudentInfoDetails from './Components/Student Section/StudentInfoDetails/StudentInfoDetails';
+import StudentResult from './Components/Student Section/Student Results/StudentResult';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path='/ProfileView' element={<ProfileView/>} />
         <Route path='/StudentInfo' element={<StudentInfo/>} />
         <Route path='/StudentDetails' element={<StudentInfoDetails/>} />
+        <Route path='/StudentResults' element={<StudentResult/>} />
     
       </Routes>
       
