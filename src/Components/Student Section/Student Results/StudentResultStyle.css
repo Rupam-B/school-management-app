@@ -28,7 +28,7 @@
 .Student-all-Result-mid-div-avg-score{
     width: 50%;
     height: 80%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display: flex;
     flex-direction: column;
     justify-content: center;
