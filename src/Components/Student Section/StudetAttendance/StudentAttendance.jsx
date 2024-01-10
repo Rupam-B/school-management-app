@@ -26,7 +26,7 @@ const StudentAttendance = () => {
     <div className='Student-Attendance-main-div'>
             <div className='Student-Attendance-sub-div'>
                 <div className='Student-Attendance-top-div'>
-                    <Link to={'/HomeWorkPage'} style={{ textDecoration: 'none' }}><i className="fa-solid fa-angle-left"></i></Link>
+                    <Link to={'/TeachersHome'} style={{ textDecoration: 'none' }}><i className="fa-solid fa-angle-left"></i></Link>
                     <h2>Student Attendance</h2>
                 </div>
                 <div className='Student-Attendance-mid-div'>

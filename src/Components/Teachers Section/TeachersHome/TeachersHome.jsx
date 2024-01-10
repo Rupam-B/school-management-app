@@ -63,13 +63,13 @@ const TeachersHome = () => {
             <p>Attendance</p>
           </div>
           <div className='Student-Home-Main-icons'>
-            <Link to={'/TeachersNotes'} style={{ backgroundColor: '#d8edf1' }} className='Student-Home-Main-icons-inner-div'>
-            <i className="fa-brands fa-square-letterboxd"></i>
+            <Link to={'/FeeSection'} style={{ backgroundColor: '#d8edf1',textDecoration:'none' }} className='Student-Home-Main-icons-inner-div'>
+            <i className="fa-solid fa-indian-rupee-sign"></i>
             </Link>
-            <p>Teachers Note</p>
+            <p>Fee section</p>
           </div>
           <div className='Student-Home-Main-icons'>
-            <Link to={'/LeaveSection'} style={{ backgroundColor: '#e7dfd6' }} className='Student-Home-Main-icons-inner-div'>
+            <Link to={'/LeaveSection'} style={{ backgroundColor: '#e7dfd6',textDecoration:'none' }} className='Student-Home-Main-icons-inner-div'>
             <i className="fa-solid fa-person-through-window"></i>
             </Link>
             <p>Leave</p>
@@ -99,7 +99,7 @@ const TeachersHome = () => {
             <p>Message</p>
           </div>
           <div className='Student-Home-Main-icons'>
-            <Link to={'/ProfileView'} style={{ backgroundColor: '#d3ffe2',textDecoration:'none' }} className='Student-Home-Main-icons-inner-div'>
+            <Link to={'/NoticeSection'} style={{ backgroundColor: '#d3ffe2',textDecoration:'none' }} className='Student-Home-Main-icons-inner-div'>
               <i className="fa-regular fa-calendar"></i>
             </Link>
             <p>Notice</p>

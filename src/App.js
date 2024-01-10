@@ -15,6 +15,9 @@ import AddLeavesPage from './Components/Teachers Section/Leaves/AddLeavesPage';
 import HomeWorkPage from './Components/Teachers Section/HomeWorks/HomeWorkPage';
 import SeeHomeWorkStatus from './Components/Teachers Section/HomeWorks/SeeHomeWorkStatus';
 import StudentAttendance from './Components/Student Section/StudetAttendance/StudentAttendance';
+import Notice from './Components/Teachers Section/Notice/Notice';
+import FeeSection from './Components/Student Section/Fee Section/FeeSection';
+import FeeSectionDetails from './Components/Student Section/Fee Section/FeeSectionDetails';
 
 
 function App() {
@@ -35,6 +38,9 @@ function App() {
         <Route path='/HomeWorkPage' element={<HomeWorkPage/>} />
         <Route path='/SeeHomeWorkStatus' element={<SeeHomeWorkStatus/>} />
         <Route path='/StudentAttendance' element={<StudentAttendance/>} />
+        <Route path='/NoticeSection' element={<Notice/>} />
+        <Route path='/FeeSection' element={<FeeSection/>} />
+        <Route path='/FeeDetails' element={<FeeSectionDetails/>} />
     
       </Routes>
       
