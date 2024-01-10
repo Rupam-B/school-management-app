@@ -57,21 +57,21 @@ const TeachersHome = () => {
 
         <div className='Student-Home-Middle-content-div'>
           <div className='Student-Home-Main-icons'>
-            <div style={{ backgroundColor: '#f8d5da' }} className='Student-Home-Main-icons-inner-div'>
+            <Link to={'/StudentAttendance'} style={{ backgroundColor: '#f8d5da' }} className='Student-Home-Main-icons-inner-div'>
             <i className="fa-solid fa-clipboard-user"></i>
-            </div>
+            </Link>
             <p>Attendance</p>
           </div>
           <div className='Student-Home-Main-icons'>
-            <div style={{ backgroundColor: '#d8edf1' }} className='Student-Home-Main-icons-inner-div'>
+            <Link to={'/TeachersNotes'} style={{ backgroundColor: '#d8edf1' }} className='Student-Home-Main-icons-inner-div'>
             <i className="fa-brands fa-square-letterboxd"></i>
-            </div>
+            </Link>
             <p>Teachers Note</p>
           </div>
           <div className='Student-Home-Main-icons'>
-            <div style={{ backgroundColor: '#e7dfd6' }} className='Student-Home-Main-icons-inner-div'>
+            <Link to={'/LeaveSection'} style={{ backgroundColor: '#e7dfd6' }} className='Student-Home-Main-icons-inner-div'>
             <i className="fa-solid fa-person-through-window"></i>
-            </div>
+            </Link>
             <p>Leave</p>
           </div>
           <div className='Student-Home-Main-icons'>
@@ -81,9 +81,9 @@ const TeachersHome = () => {
             <p>Time Table</p>
           </div>
           <div className='Student-Home-Main-icons'>
-            <div style={{ backgroundColor: '#e7eee8 ' }} className='Student-Home-Main-icons-inner-div'>
+            <Link to={'/HomeWorkPage'} style={{ backgroundColor: '#e7eee8 ' }} className='Student-Home-Main-icons-inner-div'>
             <i className="fa-solid fa-house-user"></i>
-            </div>
+            </Link>
             <p>Home Work</p>
           </div>
           <div  className='Student-Home-Main-icons'>

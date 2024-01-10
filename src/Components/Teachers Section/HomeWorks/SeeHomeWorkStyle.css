@@ -1,0 +1,106 @@
+.See-Home-Work-main-div{
+    width: 100vw;
+    height: auto;
+    /* border: 1px solid red; */
+}
+.See-Home-Work-top-div{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.See-Home-Work-top-div i{
+    position: absolute;
+    top: 3vh;
+    left: 3vw;
+}
+
+/* ------- */
+.See-Home-Work-mid-div{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 1vh 5vw;
+}
+.See-Home-Work-mid-div-select{
+    width: 42vw;
+    height: 5vh;
+    padding: 0 2vw;
+    border: 1px solid rgb(0, 0, 0,0.2);
+    border-radius: 3px;
+}
+.See-Home-Work-mid-div-date-select{
+    width: 42vw;
+    height: 5vh;
+    padding: 0 2vw;
+    border: 1px solid rgb(0, 0, 0,0.2);
+
+    border-radius: 3px;
+}
+
+/* ------------- */
+.See-Home-Work-bottom-div{
+    padding: 0 5vw;
+    margin-top: 3vh;
+}
+.See-Home-Work-bottom-div-inner{
+    width: 100%;
+    background-color:  rgba(0, 0, 0, 0.06);
+    /* height: 50vh; */
+    padding: 0 2vw;
+    border-radius: 5px;
+}
+
+.See-Home-Work-bottom-div-individual-inner{
+    width: 85vw;
+    height: 11vh;
+    /* border-bottom: 1px solid rgb(0, 0, 0,0.2); */
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2vw;
+    align-items: center;
+    padding-top: 2vh;
+    padding-bottom: 1.5vh;
+    margin-bottom: 1vh;
+    /* border: 1px solid red; */
+}
+.See-Home-Work-bottom-div-individual-inner-sub{
+    width: 60%;
+    height: 100%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.See-Home-Work-bottom-div-individual-inner-sub-image{
+    width: 30%;
+    height: 90%;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    /* border: 1px solid red; */
+}
+.See-Home-Work-bottom-div-individual-inner-sub img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.See-Home-Work-bottom-div-individual-inner-sub-data{
+    width: 64%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items:center; */
+    /* border: 1px solid green; */
+}
+.See-Home-Work-bottom-div-individual-inner-sub-data p{
+    margin: 0;
+}
+

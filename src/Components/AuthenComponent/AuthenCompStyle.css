@@ -92,7 +92,7 @@
     align-items: center;
     padding-top: 5vh;
 }
-.Auth-sub-div-lower-block input{
+.Auth-sub-div-lower-block input,select{
     width: 90%;
     /* margin-bottom: 3vh; */
     margin-top: 3vh;

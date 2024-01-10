@@ -9,6 +9,12 @@ import ProfileView from './Components/Teachers Section/Profile/ProfileView';
 import StudentInfo from './Components/Student Section/StudentInfo/StudentInfo';
 import StudentInfoDetails from './Components/Student Section/StudentInfoDetails/StudentInfoDetails';
 import StudentResult from './Components/Student Section/Student Results/StudentResult';
+import TeachersNotes from './Components/Teachers Section/TechersNotes/TeachersNotes';
+import LeavesSection from './Components/Teachers Section/Leaves/LeavesSection';
+import AddLeavesPage from './Components/Teachers Section/Leaves/AddLeavesPage';
+import HomeWorkPage from './Components/Teachers Section/HomeWorks/HomeWorkPage';
+import SeeHomeWorkStatus from './Components/Teachers Section/HomeWorks/SeeHomeWorkStatus';
+import StudentAttendance from './Components/Student Section/StudetAttendance/StudentAttendance';
 
 
 function App() {
@@ -23,6 +29,12 @@ function App() {
         <Route path='/StudentInfo' element={<StudentInfo/>} />
         <Route path='/StudentDetails' element={<StudentInfoDetails/>} />
         <Route path='/StudentResults' element={<StudentResult/>} />
+        <Route path='/TeachersNotes' element={<TeachersNotes/>} />
+        <Route path='/LeaveSection' element={<LeavesSection/>} />
+        <Route path='/AddLeavesPage' element={<AddLeavesPage/>} />
+        <Route path='/HomeWorkPage' element={<HomeWorkPage/>} />
+        <Route path='/SeeHomeWorkStatus' element={<SeeHomeWorkStatus/>} />
+        <Route path='/StudentAttendance' element={<StudentAttendance/>} />
     
       </Routes>
       

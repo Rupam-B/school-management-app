@@ -1,0 +1,170 @@
+.Student-Attendance-main-div{
+    width: 100vw;
+    height: auto;
+    /* border: 1px solid red; */
+}
+.Student-Attendance-top-div{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Student-Attendance-top-div i{
+    position: absolute;
+    top: 3vh;
+    left: 3vw;
+}
+
+/* ------- */
+.Student-Attendance-mid-div{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 1vh 5vw;
+    /* border: 1px solid red; */
+}
+.Student-Attendance-mid-div-select{
+    width: 42vw;
+    height: 5vh;
+    padding: 0 2vw;
+    border: 1px solid rgb(0, 0, 0,0.2);
+    border-radius: 3px;
+    margin-top: 0;
+}
+.Student-Attendance-mid-div-date-select{
+    width: 42vw;
+    height: 5vh;
+    padding: 0 2vw;
+    border: 1px solid rgb(0, 0, 0,0.2);
+    border-radius: 3px;
+}
+
+
+/* ------------ */
+.Student-Attendance-mid-second-div{
+    width: 100%;
+    height: 6vh;
+    /* border: 1px solid red; */
+    margin-top: 3vh;
+    padding: 0 5vw;
+}
+.Student-Attendance-mid-second-div-inner{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.09);
+    display: flex;
+    border-radius: 5px;
+}
+.Student-Attendance-mid-second-div-inner-p{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 5vw;
+}
+.Student-Attendance-mid-second-div-inner-div{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 6%;
+    padding-left: 23%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(10, 10, 10,0.5);
+    padding-top: 4%;
+}
+
+
+
+
+
+
+/* ------------- */
+.Student-Attendance-bottom-div{
+    padding: 0 5vw;
+    /* margin-top: 3vh; */
+}
+.Student-Attendance-bottom-div-inner{
+    width: 100%;
+    background-color:  rgba(0, 0, 0, 0.06);
+    /* height: 50vh; */
+    padding: 0 2vw;
+    border-radius: 5px;
+}
+
+.Student-Attendance-bottom-div-individual-inner{
+    width: 85vw;
+    height: 11vh;
+    /* border-bottom: 1px solid rgb(0, 0, 0,0.2); */
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2vw;
+    align-items: center;
+    padding-top: 2vh;
+    padding-bottom: 1.5vh;
+    margin-bottom: 1vh;
+    /* border: 1px solid red; */
+}
+.Student-Attendance-bottom-div-individual-inner-sub{
+    width: 60%;
+    height: 100%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Student-Attendance-bottom-div-individual-inner-sub-image{
+    width: 30%;
+    height: 90%;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    /* border: 1px solid red; */
+}
+.Student-Attendance-bottom-div-individual-inner-sub img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.Student-Attendance-bottom-div-individual-inner-sub-data{
+    width: 64%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items:center; */
+    /* border: 1px solid green; */
+}
+.Student-Attendance-bottom-div-individual-inner-sub-data p{
+    margin: 0;
+}
+
+
+
+/* -------is loading ------*/
+.Student-Attendance-is-Loading{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/* ----------- */
+.Student-Attendance-bottom-space-adder-div{
+    height: 50vh;
+}
+

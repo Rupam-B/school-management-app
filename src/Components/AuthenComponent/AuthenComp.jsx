@@ -98,6 +98,11 @@ const AuthenComp = () => {
                                 <input value={signUpEmail} onChange={(e) => setSignUpEmail(e.target.value)} type="text" placeholder='Email Address' />
                                 <input value={signUpMobile} onChange={(e) => setSignUpMobile(e.target.value)} type="text" placeholder='Phone Number' />
                                 <input value={signUpPassword} onChange={(e) => setSignUpPassword(e.target.value)} type="text" placeholder='New Password' />
+                                <select name="" id="">
+                                    <option value="">Select user type</option>
+                                    <option value="">Student</option>
+                                    <option value="">Teacher</option>
+                                </select>
                                 <button onClick={handleSignUp}>SignUp</button>
                             </div>
                             <div className='Auth-sub-div-Footter-block'>
