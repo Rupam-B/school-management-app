@@ -5,6 +5,16 @@ import { Link} from 'react-router-dom';
 
 const TeachersHome = () => {
 
+  const handleAlert = ()=>{
+
+    const userResponse = window.confirm('Do You Want to send an alert message for ID: 300123456?');
+
+    if (userResponse) {
+      alert('An alert as been sent to the School Security Department, You will get a call Soon regarding!');
+    }
+  }
+
+
   return (
     <div className='Student-Home-main-div'>
       <div className='Student-Home-sub-div'>
@@ -103,6 +113,12 @@ const TeachersHome = () => {
               <i className="fa-regular fa-calendar"></i>
             </Link>
             <p>Notice</p>
+          </div>
+          <div className='Student-Home-Main-icons'>
+            <Link onClick={handleAlert} style={{ backgroundColor: 'rgb(255, 0, 0,0.05)',textDecoration:'none' }} className='Student-Home-Main-icons-inner-div'>
+            <i style={{color:'red'}} className="fa-solid fa-shield-halved"></i>
+            </Link>
+            <p>Alert</p>
           </div>
 
 

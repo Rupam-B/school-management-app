@@ -96,8 +96,9 @@
 }
 .Student-Home-Middle-content-div{
     width: 100%;
-    height: 28vh;
+    height: 45vh;
     /* border: 1px solid red; */
+    /* background-color: rgb(255, 0, 0,0.1); */
     margin-top: 1vh;
     display: flex;
     justify-content: space-between;
@@ -106,7 +107,7 @@
 }
 .Student-Home-Main-icons{
     width: 23%;
-    height: 43%;
+    height: 25%;
     /* border: 1px solid green; */
     margin: 1vh 0;
     display: flex;
