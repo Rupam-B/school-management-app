@@ -76,6 +76,7 @@
     border: 1px solid rgb(14, 13, 13,0.2);
     margin-bottom: 0.5vh;
     margin-top: 1.5vh;
+    background-color: transparent;
 
 }
 .Home-Work-mid-Create-custom-file-input{
@@ -161,8 +162,9 @@
     top: 2vh;
     border: 1px solid rgb(7, 7, 7,0.3);
     border-radius: 20px;
-    padding: 0.5vh 4vw;
-    width: 30%;
+    padding: 0.5vh 2vw;
+    width: 22%;
+    font-size: 0.8rem;
     text-decoration: none;
     display: flex;
     justify-content: center;

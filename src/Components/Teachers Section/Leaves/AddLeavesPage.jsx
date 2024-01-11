@@ -49,15 +49,16 @@ const AddLeavesPage = () => {
                         placeholder='Reason for Leave' />
 
                     <div className='Add-Leaves-mid-select-type'>
-                        <label>
+                        <label  style={{fontSize:'0.85rem'}}>
                             <input
                                 type="radio"
                                 name="leaveType"
                                 value="halfDay"
+                                style={{fontSize:'0.2rem'}}
                             />
                             Half Day Leave
                         </label>
-                        <label>
+                        <label style={{fontSize:'0.85rem'}}>
                             <input
                                 type="radio"
                                 name="leaveType"
