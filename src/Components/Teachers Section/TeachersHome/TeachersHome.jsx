@@ -75,10 +75,10 @@ const TeachersHome = () => {
             <p>Leave</p>
           </div>
           <div className='Student-Home-Main-icons'>
-            <div style={{ backgroundColor: '#ffe1f2' }} className='Student-Home-Main-icons-inner-div'>
-            <i className="fa-regular fa-note-sticky"></i>
-            </div>
-            <p>Time Table</p>
+            <Link to={'/BusLocation'} style={{ backgroundColor: '#ffe1f2',textDecoration:'none' }} className='Student-Home-Main-icons-inner-div'>
+            <i className="fa-solid fa-bus"></i>
+            </Link>
+            <p>Bus Location</p>
           </div>
           <div className='Student-Home-Main-icons'>
             <Link to={'/HomeWorkPage'} style={{ backgroundColor: '#e7eee8 ' }} className='Student-Home-Main-icons-inner-div'>
