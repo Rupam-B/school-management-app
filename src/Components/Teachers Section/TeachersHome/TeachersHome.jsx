@@ -16,7 +16,7 @@ const TeachersHome = () => {
         position: toast.POSITION.TOP_CENTER,
         style: {
           top: '50%',
-          transform: 'translateY(500%)',
+          transform: 'translateY(300%)',
         },
       });
     }
