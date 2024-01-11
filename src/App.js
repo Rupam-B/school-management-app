@@ -20,11 +20,14 @@ import FeeSection from './Components/Student Section/Fee Section/FeeSection';
 import FeeSectionDetails from './Components/Student Section/Fee Section/FeeSectionDetails';
 import BusLocationTrack from './Components/Student Section/BusLocation/BusLocationTrack';
 import TrackBusExtended from './Components/Student Section/BusLocation/TrackBusExtended';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 function App() {
   return (
     <div className="App">
+       <ToastContainer />
       <Routes>
         <Route path='/' element={<AuthenComp/>} />
         <Route path='/TeachersHome' element={<TeachersHome/>} />

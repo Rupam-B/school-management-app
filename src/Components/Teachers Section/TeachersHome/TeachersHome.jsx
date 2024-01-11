@@ -2,6 +2,8 @@ import React from 'react'
 import './TeachersHomeStyle.css'
 import NavbarMain from '../../Navbar/NavbarMain';
 import { Link} from 'react-router-dom';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const TeachersHome = () => {
 
@@ -10,7 +12,13 @@ const TeachersHome = () => {
     const userResponse = window.confirm('Do You Want to send an alert message for ID: 300123456?');
 
     if (userResponse) {
-      alert('An alert as been sent to the School Security Department, You will get a call Soon regarding!');
+      toast.error('An alert as been sent to the School Security Department, You will get a call Soon regarding!', {
+        position: toast.POSITION.TOP_CENTER,
+        style: {
+          top: '50%',
+          transform: 'translateY(-50%)',
+        },
+      });
     }
   }
 
