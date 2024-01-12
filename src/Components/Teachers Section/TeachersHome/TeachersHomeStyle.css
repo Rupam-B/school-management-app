@@ -7,6 +7,17 @@
 }
 
 
+/* @media screen and (max-width:300px) {
+    .Student-Home-header-div{
+        width: 100%;
+        height: 35vh;
+        border: 1px solid green;
+        display: flex;
+    }
+
+} */
+
+
 @media screen and (max-width:600px) {
 
 
@@ -20,7 +31,7 @@
 }
 .Student-Home-header-div{
     width: 100%;
-    height: 11vh;
+    height: 12vh;
     /* border: 1px solid red; */
     display: flex;
 }
@@ -31,8 +42,12 @@
     padding: 2vh 5vw;
     
 }
-.Student-Home-header-div-one h4{
+.Student-Home-header-div-one h5{
    margin-top: 0.2vh;
+    
+}
+.Student-Home-header-div-one p{
+   margin-bottom: 0;
     
 }
 .Student-Home-header-div-two{
