@@ -93,7 +93,7 @@
 }
 .Student-Home-carousel-div{
     width: 100%;
-    height: 16vh;
+    height: 20vh;
     /* border: 1px solid red; */
     display: flex;
     justify-content: center;
@@ -106,7 +106,7 @@
 }
 .Student-Home-carousel img{
     width: 100%;
-    height: 13vh;
+    height: 18vh;
     object-fit: cover;
 }
 .Student-Home-Middle-content-div{

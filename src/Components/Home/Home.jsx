@@ -58,12 +58,13 @@ const TeachersHome = () => {
           <div className='Student-Home-carousel'>
             <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
               <div className="carousel-inner">
-                <div className="carousel-item active">
+                <div className="carousel-item active" >
                   {/* <img src="https://st3.depositphotos.com/7865540/13809/i/450/depositphotos_138091320-stock-photo-business-workplace-with-concept.jpg" className="d-block w-100" alt="..." /> */}
                   <img src="https://dpsbilaspur.edu.in/templates/dps-bilaspur/images/banner2.jpg" className="d-block w-100" alt="..." />
                 </div>
                 <div className="carousel-item">
-                  <img src="https://t3.ftcdn.net/jpg/01/18/69/72/360_F_118697270_gewuVonZoJ0Aj277xenlnTRjpA5ArevO.jpg" className="d-block w-100" alt="..." />
+                  {/* <img src="https://t3.ftcdn.net/jpg/01/18/69/72/360_F_118697270_gewuVonZoJ0Aj277xenlnTRjpA5ArevO.jpg" className="d-block w-100" alt="..." /> */}
+                  <img src="https://st3.depositphotos.com/7865540/13809/i/450/depositphotos_138091320-stock-photo-business-workplace-with-concept.jpg" className="d-block w-100" alt="..." />
                 </div>
                 <div className="carousel-item">
                   <img src="https://assets-global.website-files.com/6156c92cb3f1a26201745fa2/6504476023fbdfa3e6d1d13b_Evolution%20of%20school%20homework.png" className="d-block w-100" alt="..." />
