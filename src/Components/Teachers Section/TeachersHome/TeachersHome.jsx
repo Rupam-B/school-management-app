@@ -117,7 +117,7 @@ const TeachersHome = () => {
             <p>Bus Location</p>
           </div>
           <div className='Student-Home-Main-icons'>
-            <Link to={TeachersSelector?'/HomeWorkPage':'/StudentHomeWork'} style={{ backgroundColor: '#e7eee8 ' }} className='Student-Home-Main-icons-inner-div'>
+            <Link to={TeachersSelector?'/HomeWorkPage':'/StudentHomeWork'} style={{ backgroundColor: '#e7eee8 ',textDecoration:'none' }} className='Student-Home-Main-icons-inner-div'>
             <i className="fa-solid fa-house-user"></i>
             </Link>
             <p>Home Work</p>
