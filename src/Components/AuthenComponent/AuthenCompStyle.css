@@ -101,6 +101,7 @@
     border: 1px solid rgb(139, 142, 168,0.5);
     border-radius: 5px;
     padding: 1vh 3vw;
+    background-color: transparent;
 }
 .Auth-password-input{
     position: relative;
