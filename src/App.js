@@ -24,6 +24,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import StudentHomeWork from './Components/Student Section/StudentHomeWork/StudentHomeWork';
 import FeesPaymentCheck from './Components/Teachers Section/FeesPaymentCheck/FeesPaymentCheck';
+import TeachersAlert from './Components/Teachers Section/TeachersAlert/TeachersAlert';
 
 
 function App() {
@@ -52,6 +53,7 @@ function App() {
         <Route path='/TeachersFeeCheck' element={<FeesPaymentCheck/>} />
         <Route path='/BusLocation' element={<BusLocationTrack/>} />
         <Route path='/TrackBusExtended' element={<TrackBusExtended/>} />
+        <Route path='/TeachersAlert' element={<TeachersAlert/>} />
     
       </Routes>
       

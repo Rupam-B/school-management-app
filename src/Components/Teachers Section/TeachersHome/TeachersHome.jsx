@@ -98,12 +98,22 @@ const TeachersHome = () => {
             <p>Alert</p>
           </div>
           )}
-          <div className='Student-Home-Main-icons'>
+          {TeachersSelector?(
+            <div className='Student-Home-Main-icons'>
+            <Link to={'/TeachersAlert'} style={{ backgroundColor: 'rgb(255, 0, 0,0.05)',textDecoration:'none' }} className='Student-Home-Main-icons-inner-div'>
+            <i style={{color:'red'}} className="fa-solid fa-shield-halved"></i>
+            </Link>
+            <p>Alert</p>
+          </div>
+          ):(
+            <div className='Student-Home-Main-icons'>
             <Link to={TeachersSelector?'/TeachersFeeCheck':'/FeeSection'} style={{ backgroundColor: '#d8edf1',textDecoration:'none' }} className='Student-Home-Main-icons-inner-div'>
             <i className="fa-solid fa-indian-rupee-sign"></i>
             </Link>
             <p>Fee section</p>
           </div>
+          )}
+          
           <div className='Student-Home-Main-icons'>
             <Link to={'/LeaveSection'} style={{ backgroundColor: '#e7dfd6',textDecoration:'none' }} className='Student-Home-Main-icons-inner-div'>
             <i className="fa-solid fa-person-through-window"></i>
