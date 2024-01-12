@@ -1,6 +1,6 @@
 import React from 'react'
-import './TeachersHomeStyle.css'
-import NavbarMain from '../../Navbar/NavbarMain';
+import './HomeStyle.css'
+import NavbarMain from '../Navbar/NavbarMain';
 import { Link} from 'react-router-dom';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -50,16 +50,17 @@ const TeachersHome = () => {
 
         </div>
 
-        <div className='Student-Home-searchbar-div'>
+        {/* <div className='Student-Home-searchbar-div'>
           <input type="text" placeholder='Search . . .' />
-        </div>
+        </div> */}
 
         <div className='Student-Home-carousel-div'>
           <div className='Student-Home-carousel'>
             <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
               <div className="carousel-inner">
                 <div className="carousel-item active">
-                  <img src="https://st3.depositphotos.com/7865540/13809/i/450/depositphotos_138091320-stock-photo-business-workplace-with-concept.jpg" className="d-block w-100" alt="..." />
+                  {/* <img src="https://st3.depositphotos.com/7865540/13809/i/450/depositphotos_138091320-stock-photo-business-workplace-with-concept.jpg" className="d-block w-100" alt="..." /> */}
+                  <img src="https://dpsbilaspur.edu.in/templates/dps-bilaspur/images/banner2.jpg" className="d-block w-100" alt="..." />
                 </div>
                 <div className="carousel-item">
                   <img src="https://t3.ftcdn.net/jpg/01/18/69/72/360_F_118697270_gewuVonZoJ0Aj277xenlnTRjpA5ArevO.jpg" className="d-block w-100" alt="..." />
@@ -100,7 +101,8 @@ const TeachersHome = () => {
           )}
           {TeachersSelector?(
             <div className='Student-Home-Main-icons'>
-            <Link to={'/TeachersAlert'} style={{ backgroundColor: 'rgb(255, 0, 0,0.05)',textDecoration:'none' }} className='Student-Home-Main-icons-inner-div'>
+            <Link to={'/TeachersAlert'} style={{ backgroundColor: 'rgb(255, 0, 0,0.05)',textDecoration:'none',position:'relative' }} className='Student-Home-Main-icons-inner-div'>
+              <div className='Student-Home-Main-Teachers-Alert'></div>
             <i style={{color:'red'}} className="fa-solid fa-shield-halved"></i>
             </Link>
             <p>Alert</p>
@@ -149,6 +151,32 @@ const TeachersHome = () => {
               <i className="fa-regular fa-calendar"></i>
             </Link>
             <p>Notice</p>
+          </div>
+          <div className='Student-Home-Main-icons'>
+            <Link to={'/LibrarySection'} style={{ backgroundColor: '#e7dfd6',textDecoration:'none' }} className='Student-Home-Main-icons-inner-div'>
+            <i className="fa-solid fa-book"></i>
+            </Link>
+            <p>Library</p>
+          </div>
+          <div className='Student-Home-Main-icons'>
+            <Link to={'/CalenderSection'} style={{ backgroundColor: '#ffe1f2',textDecoration:'none' }} className='Student-Home-Main-icons-inner-div'>
+            <i className="fa-regular fa-calendar-days"></i>
+            </Link>
+            <p>Calender</p>
+          </div>
+          <div className='Student-Home-Main-icons'>
+            {/* <Link to={'/TeachersHome'} style={{ backgroundColor: '#f8d5da',textDecoration:'none' }} className='Student-Home-Main-icons-inner-div'> */}
+            <Link to={'/TeachersHome'} style={{ backgroundColor: 'white',textDecoration:'none' }} className='Student-Home-Main-icons-inner-div'>
+              {/* <i className="fa-regular fa-calendar"></i> */}
+            </Link>
+            <p></p>
+          </div>
+          <div className='Student-Home-Main-icons'>
+            {/* <Link to={'/TeachersHome'} style={{ backgroundColor: '#e1e0fa',textDecoration:'none' }} className='Student-Home-Main-icons-inner-div'> */}
+            <Link to={'/TeachersHome'} style={{ backgroundColor: 'white',textDecoration:'none' }} className='Student-Home-Main-icons-inner-div'>
+              {/* <i className="fa-regular fa-calendar"></i> */}
+            </Link>
+            <p></p>
           </div>
           
 

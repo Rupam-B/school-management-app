@@ -1,11 +1,6 @@
 const initialStoredValue = localStorage.getItem('verifyTypeOfUser');
 const initialParsedValue = initialStoredValue ? JSON.parse(initialStoredValue) : null;
-const defaultValue = 0;
-const initialState = initialParsedValue !== null ? parseInt(initialParsedValue) : defaultValue;
-
-
-
-console.log(initialState)
+const initialState = initialParsedValue !== null ? parseInt(initialParsedValue) : 0;
 
 
 

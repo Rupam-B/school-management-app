@@ -2,7 +2,7 @@
 import { Route, Routes } from 'react-router-dom';
 // import './App.css';
 import AuthenComp from './Components/AuthenComponent/AuthenComp';
-import TeachersHome from './Components/Teachers Section/TeachersHome/TeachersHome';
+import Home from './Components/Home/Home'
 import Lectures from './Components/Teachers Section/Lectures/Lectures';
 import MessageList from './Components/Teachers Section/Messages/MessageList'
 import ProfileView from './Components/Teachers Section/Profile/ProfileView';
@@ -25,6 +25,8 @@ import 'react-toastify/dist/ReactToastify.css';
 import StudentHomeWork from './Components/Student Section/StudentHomeWork/StudentHomeWork';
 import FeesPaymentCheck from './Components/Teachers Section/FeesPaymentCheck/FeesPaymentCheck';
 import TeachersAlert from './Components/Teachers Section/TeachersAlert/TeachersAlert';
+import CalenderSection from './Components/Calender/CalenderSection'
+import LibrarySection from './Components/Library/LibrarySection';
 
 
 function App() {
@@ -33,7 +35,7 @@ function App() {
        <ToastContainer />
       <Routes>
         <Route path='/' element={<AuthenComp/>} />
-        <Route path='/TeachersHome' element={<TeachersHome/>} />
+        <Route path='/TeachersHome' element={<Home/>} />
         <Route path='/LectureList' element={<Lectures/>} />
         <Route path='/MessageList' element={<MessageList/>} />
         <Route path='/ProfileView' element={<ProfileView/>} />
@@ -54,6 +56,8 @@ function App() {
         <Route path='/BusLocation' element={<BusLocationTrack/>} />
         <Route path='/TrackBusExtended' element={<TrackBusExtended/>} />
         <Route path='/TeachersAlert' element={<TeachersAlert/>} />
+        <Route path='/CalenderSection' element={<CalenderSection/>} />
+        <Route path='/LibrarySection' element={<LibrarySection/>} />
     
       </Routes>
       
