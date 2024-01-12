@@ -99,7 +99,7 @@ const TeachersHome = () => {
           </div>
           )}
           <div className='Student-Home-Main-icons'>
-            <Link to={'/FeeSection'} style={{ backgroundColor: '#d8edf1',textDecoration:'none' }} className='Student-Home-Main-icons-inner-div'>
+            <Link to={TeachersSelector?'/TeachersFeeCheck':'/FeeSection'} style={{ backgroundColor: '#d8edf1',textDecoration:'none' }} className='Student-Home-Main-icons-inner-div'>
             <i className="fa-solid fa-indian-rupee-sign"></i>
             </Link>
             <p>Fee section</p>

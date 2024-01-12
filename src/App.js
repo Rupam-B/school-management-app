@@ -23,6 +23,7 @@ import TrackBusExtended from './Components/Student Section/BusLocation/TrackBusE
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import StudentHomeWork from './Components/Student Section/StudentHomeWork/StudentHomeWork';
+import FeesPaymentCheck from './Components/Teachers Section/FeesPaymentCheck/FeesPaymentCheck';
 
 
 function App() {
@@ -48,6 +49,7 @@ function App() {
         <Route path='/NoticeSection' element={<Notice/>} />
         <Route path='/FeeSection' element={<FeeSection/>} />
         <Route path='/FeeDetails' element={<FeeSectionDetails/>} />
+        <Route path='/TeachersFeeCheck' element={<FeesPaymentCheck/>} />
         <Route path='/BusLocation' element={<BusLocationTrack/>} />
         <Route path='/TrackBusExtended' element={<TrackBusExtended/>} />
     

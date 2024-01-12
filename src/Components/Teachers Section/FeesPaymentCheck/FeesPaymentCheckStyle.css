@@ -1,0 +1,172 @@
+.Fee-Payment-Check-main-div{
+    width: 100vw;
+    height: auto;
+    /* border: 1px solid red; */
+}
+.Fee-Payment-Check-top-div{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Fee-Payment-Check-top-div i{
+    position: absolute;
+    top: 3vh;
+    left: 3vw;
+}
+
+/* ------- */
+.Fee-Payment-Check-mid-div{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 1vh 5vw;
+    /* border: 1px solid red; */
+}
+.Fee-Payment-Check-mid-div-select{
+    width: 42vw;
+    height: 5vh;
+    padding: 0 2vw;
+    border: 1px solid rgb(0, 0, 0,0.2);
+    border-radius: 3px;
+    margin-top: 0;
+    background-color: transparent;
+}
+.Fee-Payment-Check-mid-div-date-select{
+    width: 42vw;
+    height: 5vh;
+    padding: 0 2vw;
+    border: 1px solid rgb(0, 0, 0,0.2);
+    border-radius: 3px;
+    background-color: transparent;
+}
+
+
+/* ------------ */
+.Fee-Payment-Check-mid-second-div{
+    width: 100%;
+    height: 6vh;
+    /* border: 1px solid red; */
+    margin-top: 3vh;
+    padding: 0 5vw;
+}
+.Fee-Payment-Check-mid-second-div-inner{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    border-radius: 5px;
+}
+.Fee-Payment-Check-mid-second-div-inner-p{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 5vw;
+}
+.Fee-Payment-Check-mid-second-div-inner-div{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 6%;
+    padding-left: 23%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(10, 10, 10,0.5);
+    padding-top: 4%;
+}
+
+
+
+
+
+
+/* ------------- */
+.Fee-Payment-Check-bottom-div{
+    padding: 0 5vw;
+    /* margin-top: 3vh; */
+}
+.Fee-Payment-Check-bottom-div-inner{
+    width: 100%;
+    background-color:  rgb(250, 250, 250);
+    /* height: 50vh; */
+    padding: 0 2vw;
+    border-radius: 0 0 5px 5px;
+}
+
+.Fee-Payment-Check-bottom-div-individual-inner{
+    width: 85vw;
+    height: 11vh;
+    /* border-bottom: 1px solid rgb(0, 0, 0,0.2); */
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2vw;
+    align-items: center;
+    padding-top: 2vh;
+    padding-bottom: 1.5vh;
+    margin-bottom: 1vh;
+    /* border: 1px solid red; */
+}
+.Fee-Payment-Check-bottom-div-individual-inner-sub{
+    width: 60%;
+    height: 100%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Fee-Payment-Check-bottom-div-individual-inner-sub-image{
+    width: 30%;
+    height: 90%;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    /* border: 1px solid red; */
+}
+.Fee-Payment-Check-bottom-div-individual-inner-sub img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.Fee-Payment-Check-bottom-div-individual-inner-sub-data{
+    width: 64%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items:center; */
+    /* border: 1px solid green; */
+}
+.Fee-Payment-Check-bottom-div-individual-inner-sub-data p{
+    margin: 0;
+}
+
+
+
+/* -------is loading ------*/
+.Fee-Payment-Check-is-Loading{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/* ----------- */
+.Fee-Payment-Check-bottom-space-adder-div{
+    height: 50vh;
+}
+

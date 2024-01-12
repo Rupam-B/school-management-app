@@ -1,9 +1,25 @@
+const initialStoredValue = localStorage.getItem('verifyTypeOfUser');
+const initialParsedValue = initialStoredValue ? JSON.parse(initialStoredValue) : null;
+const defaultValue = 0;
+const initialState = initialParsedValue !== null ? parseInt(initialParsedValue) : defaultValue;
 
-const initialState = 0;
+
+
+console.log(initialState)
+
+
 
 const VerifyTypeOfUser = (state = initialState, action) => {
     if (action.type === 'Which-User') {
-        return action.payload;
+
+        const newState = action.payload;
+
+
+        // ------
+        localStorage.setItem('verifyTypeOfUser', JSON.stringify(newState));
+        return newState;
+
+
     } else {
         return state;
     }

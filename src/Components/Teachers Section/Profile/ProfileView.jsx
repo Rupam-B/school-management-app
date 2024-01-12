@@ -76,9 +76,14 @@ const ProfileView = () => {
             </div>
 
           </div>
+          
 
 
           
+        </div>
+
+        <div className='Profile-View-space-adder-div'>
+
         </div>
       </div>
       <Navbar/>
