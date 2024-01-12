@@ -174,7 +174,6 @@ const TeachersHome = () => {
               <p><i className="fa-regular fa-clock"></i> 12 pm to 1:30 pm</p>
             </div>
             <div className='Student-Lectures-content-div-bottom-one'>
-              <h6>Physics Lecture in 12th B</h6>
               {TeachersSelector?
             <h6>Physics Lecture in 12th B</h6>
             :
