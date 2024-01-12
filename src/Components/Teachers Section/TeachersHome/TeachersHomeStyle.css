@@ -28,7 +28,7 @@
     width: 65%;
     height: 100%;
     /* border: 1px solid blueviolet; */
-    padding: 2vh 2vw;
+    padding: 2vh 5vw;
     
 }
 .Student-Home-header-div-one h4{
@@ -96,7 +96,7 @@
 }
 .Student-Home-Middle-content-div{
     width: 100%;
-    height: 50vh;
+    height: 28vh;
     /* border: 1px solid red; */
     /* background-color: rgb(255, 0, 0,0.1); */
     margin-top: 1vh;
@@ -107,7 +107,7 @@
 }
 .Student-Home-Main-icons{
     width: 23%;
-    height: 25%;
+    height: 46%;
     /* border: 1px solid green; */
     margin: 1vh 0;
     display: flex;

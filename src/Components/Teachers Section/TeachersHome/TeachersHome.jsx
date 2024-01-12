@@ -4,8 +4,12 @@ import NavbarMain from '../../Navbar/NavbarMain';
 import { Link} from 'react-router-dom';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { useSelector } from 'react-redux';
 
 const TeachersHome = () => {
+
+
+  const TeachersSelector = useSelector((state)=>state.VerifyTypeOfUser)
 
   const handleAlert = ()=>{
 
@@ -28,7 +32,11 @@ const TeachersHome = () => {
       <div className='Student-Home-sub-div'>
         <div className='Student-Home-header-div'>
           <div className='Student-Home-header-div-one'>
-            <p>ID: 324BG76</p>
+          {TeachersSelector?
+            <p>Teacher's ID : 324BG76</p>
+            :
+            <p>Student's ID : 324BG76</p>
+          }
             <h4>Good Morning, Robert</h4>
           </div>
           <div className='Student-Home-header-div-two'>
@@ -74,12 +82,22 @@ const TeachersHome = () => {
 
 
         <div className='Student-Home-Middle-content-div'>
+          {TeachersSelector?(
           <div className='Student-Home-Main-icons'>
             <Link to={'/StudentAttendance'} style={{ backgroundColor: '#f8d5da' }} className='Student-Home-Main-icons-inner-div'>
             <i className="fa-solid fa-clipboard-user"></i>
             </Link>
             <p>Attendance</p>
           </div>
+          ):
+          (
+            <div className='Student-Home-Main-icons'>
+            <Link onClick={handleAlert} style={{ backgroundColor: 'rgb(255, 0, 0,0.05)',textDecoration:'none' }} className='Student-Home-Main-icons-inner-div'>
+            <i style={{color:'red'}} className="fa-solid fa-shield-halved"></i>
+            </Link>
+            <p>Alert</p>
+          </div>
+          )}
           <div className='Student-Home-Main-icons'>
             <Link to={'/FeeSection'} style={{ backgroundColor: '#d8edf1',textDecoration:'none' }} className='Student-Home-Main-icons-inner-div'>
             <i className="fa-solid fa-indian-rupee-sign"></i>
@@ -99,13 +117,13 @@ const TeachersHome = () => {
             <p>Bus Location</p>
           </div>
           <div className='Student-Home-Main-icons'>
-            <Link to={'/HomeWorkPage'} style={{ backgroundColor: '#e7eee8 ' }} className='Student-Home-Main-icons-inner-div'>
+            <Link to={TeachersSelector?'/HomeWorkPage':'/StudentHomeWork'} style={{ backgroundColor: '#e7eee8 ' }} className='Student-Home-Main-icons-inner-div'>
             <i className="fa-solid fa-house-user"></i>
             </Link>
             <p>Home Work</p>
           </div>
           <div  className='Student-Home-Main-icons'>
-            <Link to={'/StudentInfo'} style={{ backgroundColor: '#e1e0fa',textDecoration:'none' }} className='Student-Home-Main-icons-inner-div' >
+            <Link to={TeachersSelector?'/StudentInfo':'/ProfileView'} style={{ backgroundColor: '#e1e0fa',textDecoration:'none' }} className='Student-Home-Main-icons-inner-div' >
             <i className="fa-solid fa-graduation-cap"></i>
             </Link>
             <p>Student Info</p>
@@ -122,12 +140,7 @@ const TeachersHome = () => {
             </Link>
             <p>Notice</p>
           </div>
-          <div className='Student-Home-Main-icons'>
-            <Link onClick={handleAlert} style={{ backgroundColor: 'rgb(255, 0, 0,0.05)',textDecoration:'none' }} className='Student-Home-Main-icons-inner-div'>
-            <i style={{color:'red'}} className="fa-solid fa-shield-halved"></i>
-            </Link>
-            <p>Alert</p>
-          </div>
+          
 
 
         </div>
@@ -135,21 +148,38 @@ const TeachersHome = () => {
 
         <div className='Student-Home-Lectures-content-div'>
           <div className='Student-Lectures-content-div-top'>
+            {TeachersSelector?
             <h4>Today's Lectures</h4>
+            :
+            <h4>Today's Classes</h4>
+          }
             <Link style={{textDecoration:'none'}} to={'/LectureList'}><p>view all</p></Link>
           </div>
           <div className='Student-Lectures-content-div-bottom'>
             <div className='Student-Lectures-content-div-bottom-one'>
-              <h6>Math Lecture in 7th B</h6>
+              {TeachersSelector?
+            <h6>Math Lecture in 7th B</h6>
+            :
+            <h6>Maths Period</h6>
+          }
               <p><i className="fa-regular fa-clock"></i> 10 am to 11:30 am</p>
 
             </div>
             <div className='Student-Lectures-content-div-bottom-one'>
-              <h6>Chemistry Lecture in 11th A</h6>
+              {TeachersSelector?
+            <h6>Chemistry Lecture in 11th A</h6>
+            :
+            <h6>Chemistry Period</h6>
+          }
               <p><i className="fa-regular fa-clock"></i> 12 pm to 1:30 pm</p>
             </div>
             <div className='Student-Lectures-content-div-bottom-one'>
               <h6>Physics Lecture in 12th B</h6>
+              {TeachersSelector?
+            <h6>Physics Lecture in 12th B</h6>
+            :
+            <h6>Physics Period</h6>
+          }
               <p><i className="fa-regular fa-clock"></i> 2 pm to 3:30 pm</p>
             </div>
           </div>

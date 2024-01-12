@@ -22,6 +22,7 @@ import BusLocationTrack from './Components/Student Section/BusLocation/BusLocati
 import TrackBusExtended from './Components/Student Section/BusLocation/TrackBusExtended';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import StudentHomeWork from './Components/Student Section/StudentHomeWork/StudentHomeWork';
 
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
         <Route path='/LeaveSection' element={<LeavesSection/>} />
         <Route path='/AddLeavesPage' element={<AddLeavesPage/>} />
         <Route path='/HomeWorkPage' element={<HomeWorkPage/>} />
+        <Route path='/StudentHomeWork' element={<StudentHomeWork/>} />
         <Route path='/SeeHomeWorkStatus' element={<SeeHomeWorkStatus/>} />
         <Route path='/StudentAttendance' element={<StudentAttendance/>} />
         <Route path='/NoticeSection' element={<Notice/>} />

@@ -3,10 +3,16 @@
 import React, { useState } from 'react'
 import './AuthenCompStyle.css'
 import { useNavigate } from 'react-router-dom'
+import { useDispatch } from 'react-redux'
+import { VerifyUserType } from '../../Redux/action'
 
 const AuthenComp = () => {
 
     const loginavigate = useNavigate()
+
+    const AuthDispatch = useDispatch()
+
+    const [verifyWhichUser, setVerifyWhichUser]=useState(0)
 
 
     // PAge navigation Control State Data
@@ -36,6 +42,7 @@ const AuthenComp = () => {
     const handleLogin = () => {
         if (username === 'sid' && userpassword === '123') {
             loginavigate('/TeachersHome')
+            AuthDispatch(VerifyUserType(verifyWhichUser))
         }
         else {
             alert('wrong')
@@ -71,6 +78,11 @@ const AuthenComp = () => {
                             <input onChange={(e) => setUsername(e.target.value)} type="text" placeholder='Email / Phone' />
                             <input className='Auth-password-input' onChange={(e) => setUserPassword(e.target.value)} type={showPassword ? "password" : "text"} placeholder='Password' />
                             <i onClick={() => setShowPassword(!showPassword)} className={showPassword ? "fa-solid fa-eye Auth-password-icon" : "fa-solid fa-eye-slash Auth-password-icon"}></i>
+
+                            <select name="" id="" onChange={(e)=>setVerifyWhichUser(e.target.value)}>
+                                <option value={0}>Student</option>
+                                <option value={1}>Teacher</option>
+                            </select>
 
                             <p onClick={() => setForgotPassword(false)}>Forgot password?</p>
                             <button onClick={handleLogin}>Login</button>

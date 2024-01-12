@@ -1,0 +1,88 @@
+.Student-Home-Work-main-div{
+    width: 100vw;
+    height: auto;
+    /* border: 1px solid red; */
+}
+.Student-Home-Work-top-div{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Student-Home-Work-top-div i{
+    position: absolute;
+    top: 3vh;
+    left: 3vw;
+}
+
+
+/* ----------- */
+.Student-Home-Work-mid-div-date-select{
+    width: 42vw;
+    height: 5vh;
+    padding: 0 2vw;
+    border: 1px solid rgb(0, 0, 0,0.2);
+    border-radius: 3px;
+    background-color: transparent;
+}
+
+
+/* --------- */
+.Student-Home-Work-show-leaves-div-main{
+    padding: 2vh 5vw;
+}
+.Student-Home-Work-show-leaves-div{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(248, 248, 248);
+    margin-bottom: 4vh;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3vw;
+    position: relative;
+}
+.Student-Home-Work-show-leaves-div button{
+    position: absolute;
+    right: 3vw;
+    top: 2vh;
+    border: 1px solid rgb(7, 7, 7,0.3);
+    border-radius: 20px;
+    padding: 0.5vh 2vw;
+    width: 22%;
+    font-size: 0.8rem;
+}
+.Student-Home-Work-show-leaves-div-left{
+    padding-top: 1vh;
+    padding-left: 1.5vw;
+}
+.Student-Home-Work-show-leaves-div-left-para-one{
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(8, 8, 8,0.6);
+}
+.Student-Home-Work-show-leaves-div-left-para-two i{
+    margin-right: 2vw;
+}
+.Student-Home-Work-show-leaves-div-left-para-two{
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+}
+.Student-Home-Work-show-leaves-div-left-para-two span{
+    margin-right: 4vw;
+}
+
+
+
+
+/* --------- */
+.Student-Home-Work-is-Loading{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
