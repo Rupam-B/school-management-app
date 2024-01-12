@@ -1,12 +1,31 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './ProfileViewStyle.css'
 import Navbar from '../../Navbar/NavbarMain'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 const ProfileView = () => {
+  const[isLoggingOut, setIsLoggingOut]=useState(false)
+
+
+  const ProfileNavigate = useNavigate()
+
+
+  const handleLoggingOut = ()=>{
+    setIsLoggingOut(true)
+
+    setTimeout(()=>{
+      setIsLoggingOut(false)
+      ProfileNavigate('/')
+
+    },2500)
+  }
     return (
         <div className='Profile-View-main-div'>
       <div className='Profile-View-sub-div'>
+      <div className={isLoggingOut?'Profile-View-Logging-out-div-active':'Profile-View-Logging-out-div-inactive'}>
+        <h4>Logging Out...</h4>
+      </div>
+
         <div className='Profile-View-top-div'>
           <Link to={'/TeachersHome'} style={{ textDecoration: 'none' }}><i className="fa-solid fa-angle-left"></i></Link>
           <h2>User Profile</h2>
@@ -80,6 +99,11 @@ const ProfileView = () => {
 
 
           
+        </div>
+        <div className='Profile-View-mid-four-div-logout'>
+          <h6 onClick={handleLoggingOut}>Logout</h6>
+          
+
         </div>
 
         <div className='Profile-View-space-adder-div'>
