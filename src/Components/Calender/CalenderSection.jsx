@@ -50,30 +50,37 @@ const CalenderSection = () => {
                         (
                             <div className='Calender-Section-mid-div-content'>
                         <div style={{borderLeft:'4px solid skyblue'}} className='Calender-Section-mid-div-content-holidays'>
+                            <div style={{backgroundColor:'skyblue'}} className='Calender-Section-mid-div-content-top-circle'></div>
                             <p>15th January 2024</p>
                             <h6>Pongal</h6>
                         </div>
                         <div style={{borderLeft:'4px solid green'}} className='Calender-Section-mid-div-content-holidays'>
+                        <div style={{backgroundColor:'green'}} className='Calender-Section-mid-div-content-top-circle'></div>
                             <p>26th January 2024</p>
                             <h6>Republic Day</h6>
                         </div>
                         <div style={{borderLeft:'4px solid red'}} className='Calender-Section-mid-div-content-holidays'>
+                        <div style={{backgroundColor:'red'}} className='Calender-Section-mid-div-content-top-circle'></div>
                             <p>14th Feb 2024</p>
                             <h6>Vasant Panchami</h6>
                         </div>
                         <div style={{borderLeft:'4px solid orange'}} className='Calender-Section-mid-div-content-holidays'>
+                        <div style={{backgroundColor:'orange'}} className='Calender-Section-mid-div-content-top-circle'></div>
                             <p>15th January 2024</p>
                             <h6>Pongal</h6>
                         </div>
                         <div style={{borderLeft:'4px solid blue'}} className='Calender-Section-mid-div-content-holidays'>
+                        <div style={{backgroundColor:'blue'}} className='Calender-Section-mid-div-content-top-circle'></div>
                             <p>15th January 2024</p>
                             <h6>Pongal</h6>
                         </div>
                         <div style={{borderLeft:'4px solid skyblue'}} className='Calender-Section-mid-div-content-holidays'>
+                        <div style={{backgroundColor:'skyblue'}} className='Calender-Section-mid-div-content-top-circle'></div>
                             <p>15th January 2024</p>
                             <h6>Pongal</h6>
                         </div>
                         <div style={{borderLeft:'4px solid skyblue'}} className='Calender-Section-mid-div-content-holidays'>
+                        <div style={{backgroundColor:'skyblue'}} className='Calender-Section-mid-div-content-top-circle'></div>
                             <p>15th January 2024</p>
                             <h6>Pongal</h6>
                         </div>
