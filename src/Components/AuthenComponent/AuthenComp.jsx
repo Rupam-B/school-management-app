@@ -1,6 +1,6 @@
 
 
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './AuthenCompStyle.css'
 import { useNavigate } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
@@ -25,6 +25,8 @@ const AuthenComp = () => {
     //  Log In state data 
     const [username, setUsername] = useState('')
     const [userpassword, setUserPassword] = useState('')
+
+
     //  Sign Up state data 
     const [signUpname, setSignUpname] = useState('')
     const [signUpPassword, setSignUpPassword] = useState('')
@@ -43,6 +45,7 @@ const AuthenComp = () => {
         if (username === 'sid' && userpassword === '123') {
             loginavigate('/TeachersHome')
             AuthDispatch(VerifyUserType(verifyWhichUser))
+            localStorage.setItem('LoginUserData',JSON.stringify({username,userpassword}))
         }
         else {
             alert('wrong')
@@ -56,6 +59,16 @@ const AuthenComp = () => {
         setEnterRecoveryNumber(false)
         setForgotPassword(false)
     }
+
+
+    useEffect(()=>{
+        let UserLoginCheck =localStorage.getItem('LoginUserData')
+        if (UserLoginCheck) {
+              loginavigate('/TeachersHome');
+            }
+        // eslint-disable-next-line
+    },[])
+
     return (
         <div className='Auth-main-div'>
 

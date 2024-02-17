@@ -27,6 +27,12 @@ import FeesPaymentCheck from './Components/Teachers Section/FeesPaymentCheck/Fee
 import TeachersAlert from './Components/Teachers Section/TeachersAlert/TeachersAlert';
 import CalenderSection from './Components/Calender/CalenderSection'
 import LibrarySection from './Components/Library/LibrarySection';
+import PrivateComponent from './Components/PrivateComponent/PrivateComponent';
+import MoreExtended from './Components/MoreExtendedComponent/MoreExtended';
+import AchivementSection from './Components/MoreExtendedComponent/AchivementSection/AchivementSection';
+import Datesheet from './Components/MoreExtendedComponent/DateSheet/Datesheet';
+import SyllabusSection from './Components/MoreExtendedComponent/SyllabusSection/SyllabusSection';
+import TransportSection from './Components/MoreExtendedComponent/TransportSection/TransportSection';
 
 
 function App() {
@@ -35,6 +41,9 @@ function App() {
        <ToastContainer />
       <Routes>
         <Route path='/' element={<AuthenComp/>} />
+
+
+        <Route  element={<PrivateComponent/>}>
         <Route path='/TeachersHome' element={<Home/>} />
         <Route path='/LectureList' element={<Lectures/>} />
         <Route path='/MessageList' element={<MessageList/>} />
@@ -58,6 +67,13 @@ function App() {
         <Route path='/TeachersAlert' element={<TeachersAlert/>} />
         <Route path='/CalenderSection' element={<CalenderSection/>} />
         <Route path='/LibrarySection' element={<LibrarySection/>} />
+        <Route path='/Moreextended' element={<MoreExtended/>} />
+        <Route path='/AchivementSection' element={<AchivementSection/>} />
+        <Route path='/DateSheetSection' element={<Datesheet/>} />
+        <Route path='/SyllabusSection' element={<SyllabusSection/>} />
+        <Route path='/TransportSection' element={<TransportSection/>} />
+        <Route path='/ExtendedFeeSection' element={<TransportSection/>} />
+        </Route>
     
       </Routes>
       

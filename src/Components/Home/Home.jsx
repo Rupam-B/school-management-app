@@ -166,11 +166,11 @@ const TeachersHome = () => {
             <p>Calender</p>
           </div>
           <div className='Student-Home-Main-icons'>
-            {/* <Link to={'/TeachersHome'} style={{ backgroundColor: '#f8d5da',textDecoration:'none' }} className='Student-Home-Main-icons-inner-div'> */}
-            <Link to={'/TeachersHome'} style={{ backgroundColor: 'white',textDecoration:'none' }} className='Student-Home-Main-icons-inner-div'>
-              {/* <i className="fa-regular fa-calendar"></i> */}
+            <Link to={'/MoreExtended'} style={{ backgroundColor: '#f8d5da',textDecoration:'none' }} className='Student-Home-Main-icons-inner-div'>
+            {/* <Link to={'/TeachersHome'} style={{ backgroundColor: 'white',textDecoration:'none' }} className='Student-Home-Main-icons-inner-div'> */}
+            <i style={{fontSize:'2.2rem'}} className="fa-solid fa-ellipsis"></i>
             </Link>
-            <p></p>
+            <p>More</p>
           </div>
           <div className='Student-Home-Main-icons'>
             {/* <Link to={'/TeachersHome'} style={{ backgroundColor: '#e1e0fa',textDecoration:'none' }} className='Student-Home-Main-icons-inner-div'> */}

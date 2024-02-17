@@ -13,6 +13,7 @@ const ProfileView = () => {
   const handleLoggingOut = ()=>{
     setIsLoggingOut(true)
 
+    localStorage.removeItem('LoginUserData')
     setTimeout(()=>{
       setIsLoggingOut(false)
       ProfileNavigate('/')
