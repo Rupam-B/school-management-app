@@ -24,40 +24,40 @@ const MoreExtended = () => {
                             <p>Achivements</p>
                         </div>
                         <div className='Student-Home-Main-icons'>
-                            <Link to={'/SyllabusSection'} style={{ backgroundColor: '#e7dfd6', textDecoration: 'none' }} className='Student-Home-Main-icons-inner-div'>
+                            <Link to={'/SyllabusSection'} style={{ backgroundColor: '#e7eee8', textDecoration: 'none' }} className='Student-Home-Main-icons-inner-div'>
                             <i className="fa-brands fa-discourse"></i>
                             </Link>
                             <p>Syllabus</p>
                         </div>
                         <div className='Student-Home-Main-icons'>
-                            <Link to={'/TransportSection'} style={{ backgroundColor: '#e7dfd6', textDecoration: 'none' }} className='Student-Home-Main-icons-inner-div'>
+                            <Link to={'/TransportSection'} style={{ backgroundColor: '#e1e0fa', textDecoration: 'none' }} className='Student-Home-Main-icons-inner-div'>
                             <i className="fa-solid fa-bus"></i>
                             </Link>
                             <p>Trasport</p>
                         </div>
                         <div className='Student-Home-Main-icons'>
-                            <Link to={'/ExtendedFeeSection'} style={{ backgroundColor: '#e7dfd6', textDecoration: 'none' }} className='Student-Home-Main-icons-inner-div'>
-                            <i className="fa-solid fa-bus"></i>
+                            <Link to={'/ExtendedFeeSection'} style={{ backgroundColor: '#faf4d1', textDecoration: 'none' }} className='Student-Home-Main-icons-inner-div'>
+                            <i className="fa-regular fa-money-bill-1"></i>
                             </Link>
                             <p>Fees</p>
                         </div>
                         <div className='Student-Home-Main-icons'>
-                            <Link to={'/TransportSection'} style={{ backgroundColor: '#e7dfd6', textDecoration: 'none' }} className='Student-Home-Main-icons-inner-div'>
-                            <i className="fa-solid fa-bus"></i>
+                            <Link to={'/GallerySection'} style={{ backgroundColor: '#d3ffe2', textDecoration: 'none' }} className='Student-Home-Main-icons-inner-div'>
+                            <i className="fa-solid fa-image"></i>
                             </Link>
-                            <p>Trasport</p>
+                            <p>Gallery</p>
                         </div>
                         <div className='Student-Home-Main-icons'>
-                            <Link to={'/TransportSection'} style={{ backgroundColor: '#e7dfd6', textDecoration: 'none' }} className='Student-Home-Main-icons-inner-div'>
-                            <i className="fa-solid fa-bus"></i>
+                            <Link to={'/ExtendedCalenderSection'} style={{ backgroundColor: '#ffe1f2', textDecoration: 'none' }} className='Student-Home-Main-icons-inner-div'>
+                            <i className="fa-solid fa-calendar-days"></i>
                             </Link>
-                            <p>Trasport</p>
+                            <p>Calender</p>
                         </div>
-                        <div className='Student-Home-Main-icons'>
-                            <Link to={'/TransportSection'} style={{ backgroundColor: '#e7dfd6', textDecoration: 'none' }} className='Student-Home-Main-icons-inner-div'>
-                            <i className="fa-solid fa-bus"></i>
+                        <div style={{ visibility:'0' }} className='Student-Home-Main-icons'>
+                            <Link style={{ backgroundColor: 'white', textDecoration: 'none',color:'white' }} className='Student-Home-Main-icons-inner-div'>
+                            <i style={{ color:'white' }} className="fa-solid fa-bus"></i>
                             </Link>
-                            <p>Trasport</p>
+                            <p></p>
                         </div>
                     </div>
                 </div>

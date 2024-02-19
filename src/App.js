@@ -33,6 +33,9 @@ import AchivementSection from './Components/MoreExtendedComponent/AchivementSect
 import Datesheet from './Components/MoreExtendedComponent/DateSheet/Datesheet';
 import SyllabusSection from './Components/MoreExtendedComponent/SyllabusSection/SyllabusSection';
 import TransportSection from './Components/MoreExtendedComponent/TransportSection/TransportSection';
+import ExtendedFeeSection from './Components/MoreExtendedComponent/ExtendedFeeSection/ExtendedFeeSection';
+import GalarySection from './Components/MoreExtendedComponent/GallerySection/GalarySection';
+import ExtendedCalenderSection from './Components/MoreExtendedComponent/ExtendedCalenderSection/ExtendedCalenderSection';
 
 
 function App() {
@@ -72,7 +75,9 @@ function App() {
         <Route path='/DateSheetSection' element={<Datesheet/>} />
         <Route path='/SyllabusSection' element={<SyllabusSection/>} />
         <Route path='/TransportSection' element={<TransportSection/>} />
-        <Route path='/ExtendedFeeSection' element={<TransportSection/>} />
+        <Route path='/ExtendedFeeSection' element={<ExtendedFeeSection/>} />
+        <Route path='/ExtendedCalenderSection' element={<ExtendedCalenderSection/>} />
+        <Route path='/GallerySection' element={<GalarySection/>} />
         </Route>
     
       </Routes>

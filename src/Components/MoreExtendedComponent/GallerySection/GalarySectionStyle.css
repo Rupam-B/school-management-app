@@ -1,0 +1,73 @@
+
+
+.Galary-section-mid-div-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid green; */
+    margin-top: 5vh;
+}
+.Galary-section-mid-div-content-one{
+    width: 70%;
+    /* border: 1px solid blue; */
+    display: flex;
+}
+.Galary-section-mid-div-content-two{
+    width: auto;
+    /* border: 1px solid orange; */
+    /* justify-content: right; */
+    display: flex;
+    padding-right: 2vw;
+    margin-top: 2vh;
+    overflow: scroll;
+
+}
+.Galary-section-mid-div-images{
+    width: 150px;
+    height: 150px;
+    margin: 2vh 3vw;
+}
+
+
+
+
+
+
+
+/* GalarySectionStyle.css */
+
+.Show-Image{
+    position: absolute;
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Show-Image-sub{
+    position: relative;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 80%;
+    max-height: 80%;
+}
+.Show-Image-close{
+    position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+  font-size: 2rem;
+}
+.Show-Image img{
+    width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+  
