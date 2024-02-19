@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import axios from 'axios'
 import './GalarySectionStyle.css'
 const GalarySection = () => {
-    const [storedDatas, setStoredDatas] = useState()
+    const [storedDatas, setStoredDatas] = useState([])
     const [selectedImage, setSelectedImage] = useState(null);
 
     useEffect(() => {
