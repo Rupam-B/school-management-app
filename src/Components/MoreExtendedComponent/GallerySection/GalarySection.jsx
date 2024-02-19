@@ -4,7 +4,7 @@ import axios from 'axios'
 import './GalarySectionStyle.css'
 const GalarySection = () => {
     const [storedDatas, setStoredDatas] = useState()
-    // const [selectedImage, setSelectedImage] = useState(null);
+    const [selectedImage, setSelectedImage] = useState(null);
 
     useEffect(() => {
         const fetchData = async () => {
@@ -42,19 +42,19 @@ const GalarySection = () => {
   //     window.open(pdfLink);
   // };
 
-  // const openModal = (image) => {
-  //   setSelectedImage(image);
-  //   console.log("modal clicked")
-  //   console.log(selectedImage)
-  // };
+  const openModal = (image) => {
+    setSelectedImage(image);
+    console.log("modal clicked")
+    console.log(selectedImage)
+  };
 
-  // const closeModal = () => {
-  //   setSelectedImage(null);
-  // };
+  const closeModal = () => {
+    setSelectedImage(null);
+  };
 
-  const openPdf = (pdfLink) => {
-    window.open(pdfLink);
-};
+//   const openPdf = (pdfLink) => {
+//     window.open(pdfLink);
+// };
 // console.log(selectedImage,'Outside Selected')
 
  return (
@@ -73,22 +73,22 @@ const GalarySection = () => {
                     <div key={index} className='Galary-section-mid-div-content'>
                         <div className='Galary-section-mid-div-content-one'><p>{items.title}</p></div>
                         <div  className='Galary-section-mid-div-content-two'>{items.images&&items.images.map((imgs,index)=>(
-                          // <div key={index} onClick={() => openModal(imgs)}>
-                          <div key={index} onClick={() => openPdf(imgs)}>
+                          <div key={index} onClick={() => openModal(imgs)}>
+                          {/* <div key={index} onClick={() => openPdf(imgs)}> */}
                             <img className='Galary-section-mid-div-images' src={imgs} alt="" />
                           </div>
 
                         ))} </div>
                     </div>
                     )) }
-                    {/* {selectedImage && (
+                    {selectedImage && (
                              <div className="Show-Image">
                                  <span className="Show-Image-close" onClick={closeModal}>&times;</span>
                                 <div className="Show-Image-sub">
                                   <img className="Show-Image-modal-image" src={selectedImage} alt="" />
                                 </div>
                               </div>
-                    )}  */}
+                    )} 
 
                 </div>
             </div>
