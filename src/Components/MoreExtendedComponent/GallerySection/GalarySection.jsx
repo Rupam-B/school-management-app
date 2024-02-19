@@ -7,37 +7,66 @@ const GalarySection = () => {
     // const [storedDatas, setStoredDatas] = useState([])
     // const [selectedImage, setSelectedImage] = useState(null);
 
-    useEffect(() => {
-        const fetchData = async () => {
-          try {
-            // setIsLoading(true)
-            // const response = await axios.get(`api/getGallery`, {
-            const response = await axios.get(`api/getGallery`, {
-              headers: {
-                Accept: "application/json",
-              },
-            });
+    // useEffect(() => {
+    //     const fetchData = async () => {
+    //       try {
+    //         // setIsLoading(true)
+    //         const response = await axios.get(`api/getGallery`, {
+    //           headers: {
+    //             Accept: "application/json",
+    //           },
+    //         });
     
-            if (response.status >= 200 && response.status < 300) {
-              const data = response.data;
-              if (data) {
-                console.log(data)
-                // setStoredDatas(data);
-              }
-            } else {
-              throw new Error("Network response was not ok");
-            }
-          } catch (error) {
-            console.error("Error fetching data:", error);
+    //         if (response.status >= 200 && response.status < 300) {
+    //           const data = response.data;
+    //           if (data) {
+    //             console.log(data)
+    //             // setStoredDatas(data);
+    //           }
+    //         } else {
+    //           throw new Error("Network response was not ok");
+    //         }
+    //       } catch (error) {
+    //         console.error("Error fetching data:", error);
+    //       }
+    //     //   finally{
+    //     //     setIsLoading(false)
+    //     //   }
+    //     };
+    
+    //     fetchData();
+      
+    // },[]);
+
+    useEffect(() => {
+      const fetchData = async () => {
+        try {
+          // setIsLoading(true)
+          const response = await fetch(`/api/getGallery`, {
+            headers: {
+              Accept: "application/json",
+            },
+          });
+    
+          if (!response.ok) {
+            throw new Error("Network response was not ok");
           }
+    
+          const data = await response.json();
+          console.log(data);
+          // setStoredDatas(data);
+        } catch (error) {
+          console.error("Error fetching data:", error);
+        }
         //   finally{
         //     setIsLoading(false)
         //   }
-        };
+      };
     
-        fetchData();
-      
-    },[]);
+      fetchData();
+    
+    }, []);
+    
 
 
   //   const openPdf = (pdfLink) => {
