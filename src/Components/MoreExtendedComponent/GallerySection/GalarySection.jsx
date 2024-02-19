@@ -12,7 +12,7 @@ const GalarySection = () => {
           try {
             // setIsLoading(true)
             // const response = await axios.get(`api/getGallery`, {
-            const response = await axios.get(`https://eslate.siddhisoftwares.com/api/getGallery`, {
+            const response = await axios.get(`api/getGallery`, {
               headers: {
                 Accept: "application/json",
               },
